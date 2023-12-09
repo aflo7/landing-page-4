@@ -4,15 +4,15 @@
   <main>
     <div class="top-nav">
       <div class="top-nav-inner">
-        <div class="flex-with-gap-10">
-          <div>United States</div>
+        <div class="flex-with-gap-20" style="align-items: center;">
+          <div style="font-weight: bold; text-transform: uppercase;">United States</div>
           <div>Select your location</div>
         </div>
-        <div class="flex-with-gap-10">
+        <div class="flex-with-gap-20" style="align-items: center;">
           <input
             type="text"
             placeholder="Search parts, catalogs, specs and more"
-            style="width: 300px"
+            style="width: 400px; padding: 5px; border-radius: 5px; border: none;"
           />
           <div>Sign in</div>
         </div>
@@ -28,19 +28,19 @@
         "
       >
         <img src="./assets/eaton.png" alt="eton-logo" height="60px" />
-        <div style="display: flex; gap: 10px">
-          <div>Products</div>
-          <div>Digital</div>
-          <div>Services</div>
-          <div>Markets</div>
-          <div>Support</div>
-          <div>Company</div>
+        <div class="flex-with-gap-20">
+          <div style="cursor: pointer;">Products</div>
+          <div style="cursor: pointer;">Digital</div>
+          <div style="cursor: pointer;">Services</div>
+          <div style="cursor: pointer;">Markets</div>
+          <div style="cursor: pointer;">Support</div>
+          <div style="cursor: pointer;">Company</div>
         </div>
       </div>
     </div>
     <div
       class="main-img"
-      style="color: white; display: flex; flex-direction: column; gap: 20px"
+      style="color: white; display: flex; flex-direction: column; gap: 30px"
     >
       <div style="font-size: 3rem; font-weight: bold">
         Recreated by Andres.*
@@ -200,6 +200,11 @@
   gap: 10px;
 }
 
+.flex-with-gap-20 {
+  display: flex;
+  gap: 20px;
+}
+
 .main-img {
   height: 500px;
   background-image: url(https://dynamicmedia.eaton.com/is/image/eaton/what-matters-city-banner:landing-hero-desktop);
@@ -220,6 +225,15 @@
   padding: 20px 40px;
   background-color: transparent;
   color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.see-how-btn:hover {
+  background-color: white;
+  color: rgb(39, 92, 178);
+
+
 }
 
 .sustainability-img {
