@@ -18,13 +18,14 @@
         </div>
       </div>
     </div>
-    <div style="display: flex; justify-content: center; padding: 10px">
+    <div style="display: flex; justify-content: center; padding: 20px 10px; border-bottom: 5px solid lightgray;">
       <div
         style="
           width: 1000px;
           display: flex;
           justify-content: space-between;
           align-items: center;
+          
         "
       >
         <img src="./assets/eaton.png" alt="eton-logo" height="60px" />
