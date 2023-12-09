@@ -4,38 +4,46 @@
   <main>
     <div class="top-nav">
       <div class="top-nav-inner">
-        <div class="flex-with-gap-20" style="align-items: center;">
-          <div style="font-weight: bold; text-transform: uppercase;">United States</div>
+        <div class="flex-with-gap-20" style="align-items: center">
+          <div style="font-weight: bold; text-transform: uppercase">
+            United States
+          </div>
           <div>Select your location</div>
         </div>
-        <div class="flex-with-gap-20" style="align-items: center;">
+        <div class="flex-with-gap-20" style="align-items: center">
           <input
             type="text"
             placeholder="Search parts, catalogs, specs and more"
-            style="width: 400px; padding: 5px; border-radius: 5px; border: none;"
+            style="width: 400px; padding: 5px; border-radius: 5px; border: none"
           />
           <div>Sign in</div>
         </div>
       </div>
     </div>
-    <div style="display: flex; justify-content: center; padding: 20px 10px; border-bottom: 5px solid lightgray;">
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px;
+        border-bottom: 5px solid lightgray;
+      "
+    >
       <div
         style="
           width: 1000px;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          
         "
       >
         <img src="./assets/eaton.png" alt="eton-logo" height="60px" />
         <div class="flex-with-gap-20">
-          <div style="cursor: pointer;">Products</div>
-          <div style="cursor: pointer;">Digital</div>
-          <div style="cursor: pointer;">Services</div>
-          <div style="cursor: pointer;">Markets</div>
-          <div style="cursor: pointer;">Support</div>
-          <div style="cursor: pointer;">Company</div>
+          <div style="cursor: pointer">Products</div>
+          <div style="cursor: pointer">Digital</div>
+          <div style="cursor: pointer">Services</div>
+          <div style="cursor: pointer">Markets</div>
+          <div style="cursor: pointer">Support</div>
+          <div style="cursor: pointer">Company</div>
         </div>
       </div>
     </div>
@@ -53,14 +61,7 @@
       <button class="see-how-btn">See how</button>
     </div>
     <div style="display: flex; justify-content: center; padding: 10px">
-      <div
-        style="
-          display: flex;
-          width: 1000px;
-          gap: 20px;
-          margin-top: -100px;
-        "
-      >
+      <div style="display: flex; width: 1000px; gap: 20px; margin-top: -100px">
         <div style="border: 1px solid white">
           <div class="sustainability-img"></div>
 
@@ -148,33 +149,69 @@
     <div style="display: flex; justify-content: center">
       <div
         style="
-          /* padding: 50px 0px; */
           display: flex;
           width: 800px;
-          justify-content: space-between;
+          justify-content: center;
           padding-bottom: 100px;
+          gap: 20px;
         "
       >
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            width: 200px;
+          "
+        >
           <img
             src="https://www.eaton.com/content/dam/eaton/resources/icons/proofpoints/analytics_teal_icon.png"
           />
-          <div style="color: rgb(72, 159, 152); font-size: 3rem; font-weight: bold;">ETN</div>
-          <div>NYSE ticker</div>
+          <div
+            style="color: rgb(72, 159, 152); font-size: 3rem; font-weight: bold"
+          >
+            ETN
+          </div>
+          <div style="text-align: center">NYSE ticker</div>
         </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            width: 200px;
+          "
+        >
           <img
             src="https://www.eaton.com/content/dam/eaton/resources/icons/proofpoints/us-currency-symbol.png"
           />
-          <div style="color: rgb(72, 159, 152); font-size: 3rem; font-weight: bold;">20.8B</div>
-          <div>2022 sales (USD)</div>
+          <div
+            style="color: rgb(72, 159, 152); font-size: 3rem; font-weight: bold"
+          >
+            20.8B
+          </div>
+          <div style="text-align: center">2022 sales (USD)</div>
         </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            width: 200px;
+          "
+        >
           <img
             src="https://www.eaton.com/content/dam/eaton/resources/icons/proofpoints/globe_teal_icon.png"
           />
-          <div style="color: rgb(72, 159, 152); font-size: 3rem; font-weight: bold;">>92K</div>
-          <div>Employees around the world</div>
+          <div
+            style="color: rgb(72, 159, 152); font-size: 3rem; font-weight: bold"
+          >
+            >92K
+          </div>
+          <div style="text-align: center">Employees around the world</div>
         </div>
       </div>
     </div>
@@ -233,8 +270,6 @@
 .see-how-btn:hover {
   background-color: white;
   color: rgb(39, 92, 178);
-
-
 }
 
 .sustainability-img {
