@@ -153,7 +153,7 @@
           width: 800px;
           justify-content: center;
           padding-bottom: 100px;
-          gap: 20px;
+          gap: 60px;
         "
       >
         <div
